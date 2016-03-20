@@ -1,0 +1,21 @@
+# Site settings
+title: All Elder Meetings
+email: robert.johnson@northlandchurch.net
+description: >
+    All Elder Meeting archives of audio recordings, PDFs and notes. 
+# baseurl: "/"
+url: "http://eldermeetings.northlandchurch.net"
+fixedNav: 'true' # true or false
+theme: blue # green, blue, orange, purple, grey
+# twitterUsername: hybrid_alex
+# githubUsername: alexcarpenter
+# dribbbleUsername:
+# codepenUsername:
+
+# Build settings
+permalink: /:year/:month/:title
+markdown: kramdown
+include: [_pages]
+exclude: [_site, CHANGELOG.md, LICENSE, README.md]
+sass:
+  style: compressed
